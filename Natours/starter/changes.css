@@ -1,0 +1,43 @@
+/*
+
+FILE STRUCTURE:
+base - low level code (resets, animations)
+abstracts - no code output (variables, mixins)
+components - reusable code
+layout - global layouts (header, footer, grids)
+pages - specific page stylings
+themes - different themes (night mode)
+vendor - third party code
+
+*/
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  box-sizing: border-box;
+
+  background-image: radial-gradient(ellipse farthest-corner at 0 140%, #F5D547 0%, #FF312E 70%, #FE4A49 70%)
+}
+
+.wrapper {
+  width: 120rem;
+}
+
+[class^="col-"] {
+  
+}
+
+input {
+  font-family: inherit;
+  color: inherit;
+}
+
